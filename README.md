@@ -3,12 +3,12 @@
 This repository provides an **interactive installation script** that sets up a complete backend development environment on **macOS** using **Homebrew**.  
 
 The script automatically installs and configures:  
-- ☕ **Java 25** (Homebrew, Adoptium GA/EA, or OpenJDK EA fallback)  
-- 📦 **Maven** (build tool)  
-- 🛠 **Git** (version control)  
-- 🐳 **Docker Desktop** (container runtime)  
-- ☸️ **Kubernetes CLI (kubectl)**  
-- 🔗 **Minikube** (local Kubernetes cluster)  
+-  **Java 25** (Homebrew, Adoptium GA/EA, or OpenJDK EA fallback)  
+-  **Maven** (build tool)  
+-  **Git** (version control)  
+-  **Docker Desktop** (container runtime)  
+- ️ **Kubernetes CLI (kubectl)**  
+-  **Minikube** (local Kubernetes cluster)  
 
 ---
 
@@ -33,7 +33,8 @@ chmod +x install_tools.sh
 ./install_tools.sh
 ```
 
-## Menu Options
+## 📜 Menu Options
+
 When you run the script, you’ll see a menu like this:
 
 ```bash
@@ -51,7 +52,7 @@ When you run the script, you’ll see a menu like this:
 ---------------------------------------------
 ```
 
-## Verification
+✅ Verification
 
 You can check the installed versions anytime by choosing option 7 from the menu:
 
@@ -68,10 +69,10 @@ minikube: minikube version: v1.xx
 
 ## 💡 Notes
 
-- 🖥️ The script is optimized for **macOS** with **Homebrew**.  
-- 🐳 For Docker, make sure to **launch Docker Desktop once** so the engine is running.  
-- ☕ `JAVA_HOME` will be configured automatically when **Java 25** is installed.  
-- 🔄 You can re-run the script anytime to **install missing components** or **verify installs**.  
+- ️ The script is optimized for **macOS** with **Homebrew**.  
+-  For Docker, make sure to **launch Docker Desktop once** so the engine is running.  
+-  `JAVA_HOME` will be configured automatically when **Java 25** is installed.  
+-  You can re-run the script anytime to **install missing components** or **verify installs**.  
 
 ---
 
