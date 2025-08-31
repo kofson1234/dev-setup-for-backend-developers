@@ -18,13 +18,15 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/Rapter1990/dev-setup-for-backend-developers.git
+```
+
+Go to Folder
+
+```bash
 cd dev-setup-for-backend-developers
-# Dev Setup 
-for Backend Developers
+```
 
-This repository contains installation scripts and guides for backend developers.
-
-## Installation
+Make the script executable and run it:
 
 ```bash
 chmod +x install_tools.sh
@@ -32,7 +34,6 @@ chmod +x install_tools.sh
 ```
 
 ## Menu Options
-
 When you run the script, you’ll see a menu like this:
 
 ```bash
