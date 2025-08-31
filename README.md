@@ -52,7 +52,7 @@ When you run the script, you’ll see a menu like this:
 ---------------------------------------------
 ```
 
-✅ Verification
+## ✅ Verification
 
 You can check the installed versions anytime by choosing option 7 from the menu:
 
