@@ -81,3 +81,9 @@ minikube: minikube version: v1.xx
 Instead of manually installing and configuring each tool, this script ensures you get a  
 **ready-to-code backend environment** with **consistent versions** — in just a few minutes.  
 
+## 📸 Screenshots  
+
+Here’s a preview of the interactive setup menu:
+
+![Dev Setup Menu Screenshot](https://github.com/Rapter1990/dev-setup-for-backend-developers/blob/main/screenshot.png)
+
